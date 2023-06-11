@@ -1,0 +1,57 @@
+body {
+  font-family: Work Sans, sans-serif;
+  font-weight: normal;
+  font-size: 48px;
+  color: white;
+}
+.main-container {
+  width: 390px;
+  height: 698px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.monitor {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding: 100px 20px 10px 20px;
+}
+.operation-showcase {
+  font-weight: lighter;
+  font-size: 37px;
+  height: 38px;
+  color: rgba(109,109,109,1);
+  margin-bottom: 15px;
+}
+.answer {
+  font-size: 62px;
+}
+.button-row {
+  padding: 5px 20px 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button-row > div {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  background-color: rgba(109,109,109,1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.button-row > div.orange {
+  background: rgba(238,157,0,1);
+}
+.button-row > div.wide {
+  width: 170px;
+}
+.button-row > div > span {
+  margin-top: 5px;
+}
